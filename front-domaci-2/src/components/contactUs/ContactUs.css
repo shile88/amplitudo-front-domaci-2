@@ -1,0 +1,75 @@
+.__contact-us {
+    background-color: #283E51;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin-top: 150px;
+}
+
+@media screen and (max-width:1270px) {
+    .__contact-us {
+        margin-top: 80px;
+        margin-left: -250px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .__contact-us {
+        margin-top: 80px;
+        margin-left: -150px;
+    }
+}
+
+.__contact-us p {
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.__contact-us button {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 36px;
+    line-height: 90px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: white;
+    background-color:  #283E51;
+    width: 299px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1270px) {
+    .__contact-us button {
+        padding: 0;
+        font-size: 36px;
+    }
+}
+
+.__contact-us img {
+    position: absolute;
+    bottom: -28%;
+    left: 65%;
+}
+
+@media screen and (max-width: 1450px) {
+    .__contact-us img {
+        left: 70%;
+        bottom: -30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .__contact-us img {
+        width: 35%;
+        left: 72%;
+        bottom: -26%;
+    }
+}
+
+

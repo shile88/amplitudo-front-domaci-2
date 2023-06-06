@@ -1,0 +1,124 @@
+.__contact-information{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.__contact-information__background{
+    width: 100%;
+}
+
+.__contact-information .__contact-information__indicator{
+    position: absolute;
+    left: 48%;
+    bottom: 71%;
+    transform: translateX(-50%);
+}
+
+.__contact-information .__contact-information__indicator .tooltip{
+    background-color: white;
+    padding: 11px 14px;
+    box-shadow: 0px 18px 30px #0000003D;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .__contact-information .__contact-information__indicator .tooltip {
+        padding: 5px;
+    }
+}
+
+.__contact-information .__contact-information__indicator span{
+    display: inline-block;
+    font-size: 22px;
+    color: #283E51;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 1270px) {
+    .__contact-information .__contact-information__indicator span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .__contact-information .__contact-information__indicator span {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .__contact-information .__contact-information__indicator span {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+}
+
+.__contact-information .__contact-information__indicator .dot{
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #17AC9D;
+    margin: 10px auto;
+    box-shadow: inset 0 0 2px 3px white;
+}
+
+.__contact-information .__contact-information__information{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 1270px) {
+    .__contact-information .__contact-information__information {
+        font-size: 16px;
+        bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .__contact-information .__contact-information__information {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .__contact-information .__contact-information__information {
+        font-size: 13px;
+    }
+}
+
+.__contact-information .__contact-information__information img {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .__contact-information .__contact-information__information img {
+        width: 200px;
+    }
+}
+
+
+.__contact-information .__contact-information__information a {
+    color: white;  
+    text-decoration: none; 
+}
+
+.border {
+    border: 1px solid white;
+    width: 40%;
+    margin: 20px auto;
+}

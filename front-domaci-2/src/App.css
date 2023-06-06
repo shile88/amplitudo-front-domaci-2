@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url('./assets/fonts/Gilroy-Medium.woff');
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url('./assets/fonts/Gilroy-Regular.woff');
+}
+
+@font-face {
+  font-family: "Butler-Regular";
+  src: url('./assets/fonts/Butler_Regular.woff');
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url('./assets/fonts/Gilroy-Bold.woff');
+}
+
+@font-face {
+  font-family: "Rockness-Regular";
+  src: url('./assets/fonts/Rockness.woff');
+}
+
+@font-face {
+  font-family: "Butler-Light";
+  src: url('./assets/fonts/Butler_Light.woff');
+}

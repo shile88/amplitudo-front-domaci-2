@@ -1,0 +1,43 @@
+.product {
+    text-align: center;
+    border: 1px solid none;
+    border-radius: 24px;
+    box-shadow: 0px 0px 50px #67859E26;
+}
+
+@media screen and (max-width:1450px) {
+    .product {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .product img {
+        padding: 0px;
+    }
+}
+
+.product p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #283E51;
+}
+
+.product h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color: #283E51;
+    width: 50%;
+    margin: 40px auto;
+}
+
+@media screen and (max-width:1450px) {
+    .product h2 {
+        margin: 10px auto;
+        width: 70%;
+    }
+}
+
+

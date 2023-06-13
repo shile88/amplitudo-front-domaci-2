@@ -1,5 +1,6 @@
+@import '../../helperVariables/Variables.scss';
+
 .section-title {
-    color: white;
     font-family: 'Butler-Light', sans-serif;
     font-size: 72px;
     line-height: 66px;
@@ -7,5 +8,5 @@
 }
 
 .blue {
-   color: #283E51
+   color: $blue;
 }

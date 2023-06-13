@@ -1,8 +1,8 @@
-import './ArtisticTitle.css';
+import classes from './ArtisticTitle.module.scss';
 
 const ArtisticTitle = ({title, className}) => {
   return (
-    <h2 className={className}>{title}</h2>
+    <h2 className={classes[`${className}`]}>{title}</h2>
   )
 }
 

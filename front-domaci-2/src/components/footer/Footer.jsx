@@ -1,18 +1,17 @@
-import './Footer.css';
-
 import ContactInformation from "./contactInformation/ContactInformation.jsx";
 import SocialMedia from './socialMedia/SocialMedia';
+import classes from './Footer.module.scss';
 
 const Footer = () => {
     return(
-        <footer className='footer__container'>
-            <div className='footer__container__contact-us'>
+        <footer className={classes['footer-container']}>
+            <div className={classes['contact-us']}>
                 <p>Interested in our services?</p>
                 <p>contact us</p>
             </div>
             <ContactInformation/>
             <SocialMedia />
-            <div className='copyright'>
+            <div className={classes.copyright}>
                 <span>© All rights reserved 2019 Amplitudo Ltd.</span>
             </div>
         </footer>

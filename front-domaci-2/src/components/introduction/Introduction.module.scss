@@ -1,0 +1,31 @@
+@import '../../components/helperVariables/Variables.scss';
+
+.introduction-wrapper{
+    text-align: center;
+
+    .content {
+        margin: auto;
+
+        .p-group {
+            margin: 70px auto;
+
+            p {
+                font-size: 20px;
+                line-height: 30px;
+                font-family: 'Gilroy-Regular', sans-serif;
+                color: $blue;
+                opacity: 0.8;
+                text-align: left;
+                width: 40%;
+                margin: 30px auto;         
+            }
+
+            @media screen and (max-width:1155px){
+                p {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+@import '../../components/helperVariables/Variables.scss';
+
+
+.products-title {
+    text-align: center;
+    position: relative;
+
+    h2 {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 46px;
+        line-height: 90px;
+        color: $blue;
+        z-index: -1;
+    }
+
+    span {
+        font-family: 'Rockness-Regular', sans-serif;
+        color: $light-blue;
+        font-size: 65px;
+        line-height: 90px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -40%;
+        z-index: 2;
+    }
+}
+
+.products-wrapper {
+   @include productsWrapper();
+}

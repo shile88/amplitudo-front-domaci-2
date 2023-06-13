@@ -1,0 +1,10 @@
+@import '../../components/helperVariables/Variables.scss';
+
+.topic-wrapper {
+    text-align: center;
+    margin-top: 90px;
+
+    .content {
+        @include productsWrapper();
+    }
+}

@@ -1,10 +1,10 @@
-import "./Navigation.css";
+import classes from "./Navigation.module.scss";
 
 export const Navigation = () => {
   return (
-    <nav className="nav">
-      <img className="nav__logo" src="../../src/assets/images/logo.svg" />
-      <div className="nav__links">
+    <nav className={classes.nav}>
+      <img src="../../src/assets/images/logo.svg" />
+      <div className={classes.links}>
         <a href="#">Home</a>
         <a href="#">Services</a>
         <a href="#">StartUP</a>

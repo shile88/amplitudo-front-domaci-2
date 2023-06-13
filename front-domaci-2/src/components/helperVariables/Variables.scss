@@ -1,0 +1,14 @@
+//Colors
+$blue : #283E51;
+$white :white;
+$grey :#67859E;
+$light-blue: #17AC9D;
+$shadow: #67859E26;
+
+@mixin productsWrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 78px auto;
+    flex-wrap: wrap;
+}

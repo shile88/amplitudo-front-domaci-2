@@ -1,8 +1,8 @@
-import './PageTitle.css';
+import classes from './PageTitle.module.scss';
 
 const PageTitle = ({text, className}) => {
   return (
-    <h1 className={className}>{text}</h1>
+    <h1 className={classes[`${className}`]}>{text}</h1>
   )
 }
 

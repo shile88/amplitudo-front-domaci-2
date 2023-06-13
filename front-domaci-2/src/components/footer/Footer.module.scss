@@ -1,0 +1,32 @@
+@import '../../components/helperVariables/Variables.scss';
+
+.footer-container {
+    background-color: $blue;
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: $white;
+    font-size: 20px;
+    line-height: 33px;
+
+    .contact-us {
+        text-align: center;
+        padding-top: 49px;
+
+        p {
+            font-size: 26px;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .contact-us {
+            padding-top: 10px;
+        }
+    }
+
+    .copyright {
+        margin-top: 50px;
+        opacity: 0.5; 
+        padding-bottom: 15px;
+    }
+}
+

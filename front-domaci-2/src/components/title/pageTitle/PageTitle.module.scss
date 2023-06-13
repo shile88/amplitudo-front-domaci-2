@@ -1,8 +1,10 @@
+@import '../../helperVariables/Variables.scss';
+
 .page-title {
     font-family: 'Butler-regular', sans-serif;
     font-size: 100px;
     line-height: 100px;
-    color: #283E51;
+    color: $blue;
     margin-top: 0;
 }
 
